@@ -1,5 +1,5 @@
 const fs = require('fs');
-const data = require('./data.json');
+const data = require('./data-test.json');
 const userFunction = process.argv[2];
 
 if (userFunction === 'read') {

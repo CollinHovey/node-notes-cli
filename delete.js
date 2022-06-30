@@ -5,6 +5,7 @@ const WhatTodelete = process.argv[3];
 
 console.log('Delete', WhatTodelete);
 
+
 delete data.notes[WhatTodelete];
 fs.writeFile('data-test.json', JSON.stringify(data, null, 2), err => {
   if (err) throw err;
